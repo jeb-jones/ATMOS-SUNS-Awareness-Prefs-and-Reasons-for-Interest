@@ -13,7 +13,7 @@ library(dplyr)
 library(tidyr)
 library(stringr)
 
-cb_path <- "data/ATMOS_SUNS_2026_Dataset_Codebook.XLSX"   # adjust to your project
+cb_path <- "data/ATMOS_SUNS 2026 Dataset Codebook.XLSX"   # adjust to your project
 
 # ---- 1. Read the raw sheet ---------------------------------------------------
 # The first 9 rows are a title block; row 10 holds the column headers.
