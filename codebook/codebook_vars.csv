@@ -1,0 +1,568 @@
+"position","variable","label","format","type","storage","length","free_text","range","range_min","range_max"
+1,"VDATESUB","Date Submitted","DATE 9.0","Num 8","numeric",8,FALSE,"24262 to 24349",24262,24349
+2,"VSTATUS","Status",NA,"Char 100","character",100,TRUE,NA,NA,NA
+3,"VENUE","Venue",NA,"Char 100","character",100,TRUE,NA,NA,NA
+4,"AD","Ad",NA,"Char 100","character",100,TRUE,NA,NA,NA
+5,"CUID","CUID",NA,"Char 100","character",100,TRUE,NA,NA,NA
+6,"AGE","How old are you?",NA,"Num 8","numeric",8,FALSE,"18 to 78",18,78
+7,"RACEE","American Indian or Alaska Native, for example: Navajo Nation, Blackfeet Tribe, Mayan, Aztec, Native Village of Barrow Inupiat Traditional Government, Tlingit, etc :What is your race or ethnicity? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+8,"RACED","Asian, for example: Chinese, Filipino, Asian Indian, Vietnamese, Korean, Japanese, etc :What is your race or ethnicity? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+9,"RACEC","Black or African American, for example: African American, Jamaican, Haitian, Nigerian, Ethiopian, Somali, etc :What is your race or ethnicity? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+10,"RACEB","Hispanic, Latino, or Spanish, for example: Mexican or Mexican American, Puerto Rican, Cuban, Salvadoran, Dominican, Colombian, etc :What is your race or ethnicity? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+11,"RACEF","Middle Eastern or North African, for example: Lebanese, Iranian, Egyptian, Syrian, Moroccan, Algerian, etc :What is your race or ethnicity? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+12,"RACEG","Native Hawaiian or Other Pacific Islander, for example: Native Hawaiian, Samoan, Chamorro, Tongan, Fijian, Marshallese, etc :What is your race or ethnicity? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+13,"RACEA","White, for example: German, Irish, English, Italian, Polish, French, etc :What is your race or ethnicity? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+14,"RACEO","Some other race, ethnicity, or origin::What is your race or ethnicity? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+15,"RACEH","I prefer not to answer:What is your race or ethnicity? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+16,"RACEI","Don't know:What is your race or ethnicity? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+17,"RACEOSP","Some other race, ethnicity, or origin::What is your race or ethnicity? Select all that apply",NA,"Char 255","character",255,TRUE,NA,NA,NA
+18,"WHITEA","German:What are your White ethnicities? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+19,"WHITEB","Irish:What are your White ethnicities? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+20,"WHITEC","English:What are your White ethnicities? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+21,"WHITED","Italian:What are your White ethnicities? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+22,"WHITEE","Polish:What are your White ethnicities? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+23,"WHITEF","French:What are your White ethnicities? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+24,"WHITEO","Another ethnicity, for example: Scottish, Norwegian, Dutch, etc ::What are your White ethnicities? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+25,"WHITEG","I prefer not to answer:What are your White ethnicities? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+26,"WHITEH","Don't know:What are your White ethnicities? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+27,"WHITEOSP","Another ethnicity, for example: Scottish, Norwegian, Dutch, etc ::What are your White ethnicities? Select all that apply",NA,"Char 255","character",255,TRUE,NA,NA,NA
+28,"LATINA","Mexican or Mexican American:What are your Hispanic, Latino, or Spanish ethnicities? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+29,"LATINB","Puerto Rican:What are your Hispanic, Latino, or Spanish ethnicities? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+30,"LATINC","Cuban:What are your Hispanic, Latino, or Spanish ethnicities? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+31,"LATIND","Salvadoran:What are your Hispanic, Latino, or Spanish ethnicities? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+32,"LATINE","Dominican:What are your Hispanic, Latino, or Spanish ethnicities? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+33,"LATINF","Colombian:What are your Hispanic, Latino, or Spanish ethnicities? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+34,"LATINO","Another ethnicity, for example: Guatemalan, Spaniard, Ecuadorian, etc ::What are your Hispanic, Latino, or Spanish ethnicities? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+35,"LATING","I prefer not to answer:What are your Hispanic, Latino, or Spanish ethnicities? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+36,"LATINH","Don't know:What are your Hispanic, Latino, or Spanish ethnicities? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+37,"LATINOSP","Another ethnicity, for example: Guatemalan, Spaniard, Ecuadorian, etc ::What are your Hispanic, Latino, or Spanish ethnicities? Select all that apply",NA,"Char 255","character",255,TRUE,NA,NA,NA
+38,"BLACKA","African American:What are your Black or African American ethnicities? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+39,"BLACKB","Jamaican:What are your Black or African American ethnicities? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+40,"BLACKC","Haitian:What are your Black or African American ethnicities? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+41,"BLACKD","Nigerian:What are your Black or African American ethnicities? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+42,"BLACKE","Ethiopian:What are your Black or African American ethnicities? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+43,"BLACKF","Somali:What are your Black or African American ethnicities? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+44,"BLACKO","Another ethnicity, for example: Ghanaian, South African, Barbadian, etc ::What are your Black or African American ethnicities? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+45,"BLACKG","I prefer not to answer:What are your Black or African American ethnicities? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+46,"BLACKH","Don't know:What are your Black or African American ethnicities? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+47,"BLACKOSP","Another ethnicity, for example: Ghanaian, South African, Barbadian, etc ::What are your Black or African American ethnicities? Select all that apply",NA,"Char 255","character",255,TRUE,NA,NA,NA
+48,"ASIANA","Chinese:What are your Asian ethnicities? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+49,"ASIANB","Filipino:What are your Asian ethnicities? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+50,"ASIANC","Asian Indian:What are your Asian ethnicities? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+51,"ASIAND","Vietnamese:What are your Asian ethnicities? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+52,"ASIANE","Korean:What are your Asian ethnicities? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+53,"ASIANF","Japanese:What are your Asian ethnicities? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+54,"ASIANO","Another ethnicity, for example: Pakistani, Cambodian, Hmong, etc ::What are your Asian ethnicities? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+55,"ASIANG","I prefer not to answer:What are your Asian ethnicities? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+56,"ASIANH","Don't know:What are your Asian ethnicities? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+57,"ASIANOSP","Another ethnicity, for example: Pakistani, Cambodian, Hmong, etc ::What are your Asian ethnicities? Select all that apply",NA,"Char 255","character",255,TRUE,NA,NA,NA
+58,"AIAN","What are your American Indian or Alaska Native ethnicities? Enter, for example: Navajo Nation, Blackfeet Tribe, Mayan, Aztec, Native Village of Barrow Inupiat Traditional Government, Tlingit, etc",NA,"Char 5000","character",5000,TRUE,NA,NA,NA
+59,"MENAA","Lebanese:What are you Middle Eastern or North African ethnicities? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+60,"MENAB","Iranian:What are you Middle Eastern or North African ethnicities? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+61,"MENAC","Egyptian:What are you Middle Eastern or North African ethnicities? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+62,"MENAD","Syrian:What are you Middle Eastern or North African ethnicities? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+63,"MENAE","Moroccan:What are you Middle Eastern or North African ethnicities? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+64,"MENAF","Algerian:What are you Middle Eastern or North African ethnicities? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+65,"MENAO","Another ethnicity, for example: Israeli, Iraqi, Tunisian, etc :What are you Middle Eastern or North African ethnicities? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+66,"MENAG","I prefer not to answer:What are you Middle Eastern or North African ethnicities? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+67,"MENAH","Don't know:What are you Middle Eastern or North African ethnicities? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+68,"MENAOSP","Another ethnicity, for example: Israeli, Iraqi, Tunisian, etc :What are you Middle Eastern or North African ethnicities? Select all that apply",NA,"Char 255","character",255,TRUE,NA,NA,NA
+69,"NHOPIA","Native Hawaiian:What are your Native Hawaiian or Other Pacific Islander ethnicities? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+70,"NHOPIB","Samoan:What are your Native Hawaiian or Other Pacific Islander ethnicities? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+71,"NHOPIC","Chamorro:What are your Native Hawaiian or Other Pacific Islander ethnicities? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+72,"NHOPID","Tongan:What are your Native Hawaiian or Other Pacific Islander ethnicities? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+73,"NHOPIE","Fijian:What are your Native Hawaiian or Other Pacific Islander ethnicities? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+74,"NHOPIF","Marshallese:What are your Native Hawaiian or Other Pacific Islander ethnicities? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+75,"NHOPIO","Another ethnicity, for example: Palauan, Tahitian, Chuukese, etc ::What are your Native Hawaiian or Other Pacific Islander ethnicities? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+76,"NHOPIG","I prefer not to answer:What are your Native Hawaiian or Other Pacific Islander ethnicities? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+77,"NHOPIH","Don't know:What are your Native Hawaiian or Other Pacific Islander ethnicities? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+78,"NHOPIOSP","Another ethnicity, for example: Palauan, Tahitian, Chuukese, etc ::What are your Native Hawaiian or Other Pacific Islander ethnicities? Select all that apply",NA,"Char 255","character",255,TRUE,NA,NA,NA
+79,"COUNTRY_RES","What country do you live in?","COUNTRY","Num 8","numeric",8,FALSE,NA,NA,NA
+80,"TRANS_ID","Do you identify as a transgender person?","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+81,"GENDER_ID_MAN","Man:How else do you describe your current gender identity? You can choose more than one answer","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+82,"GENDER_ID_WOMAN","Woman:How else do you describe your current gender identity? You can choose more than one answer","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+83,"GENDER_ID_TM","Transmasculine:How else do you describe your current gender identity? You can choose more than one answer","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+84,"GENDER_ID_TF","Transfeminine:How else do you describe your current gender identity? You can choose more than one answer","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+85,"GENDER_ID_NB","Non-binary:How else do you describe your current gender identity? You can choose more than one answer","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+86,"GENDER_ID_OTH","Another gender:How else do you describe your current gender identity? You can choose more than one answer","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+87,"GENDER_ID_PREF","I prefer not to answer:How else do you describe your current gender identity? You can choose more than one answer","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+88,"GENDER_ID_DK","Don't know:How else do you describe your current gender identity? You can choose more than one answer","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+89,"GENDER_OTHSPEC","What other term describes your gender identity?",NA,"Char 100","character",100,TRUE,NA,NA,NA
+90,"BIRTHSEX","What sex were you assigned at birth? That is, what sex was listed on your original birth certificate? Please remember, your responses on this survey are completely confidential","BIRTHSEX","Num 8","numeric",8,FALSE,NA,NA,NA
+91,"TM_ELIG","Trans Man/ Transmasc Eligibility",NA,"Char 100","character",100,TRUE,NA,NA,NA
+92,"NB_ELIG","Non-Binary Eligibility",NA,"Char 100","character",100,TRUE,NA,NA,NA
+93,"EVERSEX","Have you had oral sex (mouth on the penis or vagina), vaginal sex (penis in the vagina), or anal sex (penis in the anus) with anyone?","YN12M","Num 8","numeric",8,FALSE,NA,NA,NA
+94,"CONSENT","If you agree to the above information and would like to be in the study, please indicate your agreement (consent) to participate below","CONSENTNEW","Num 8","numeric",8,FALSE,NA,NA,NA
+95,"PLANGUAGE","What is your primary language?","LANGPRIM","Num 8","numeric",8,FALSE,NA,NA,NA
+96,"PLANGUAGE_OTHSPEC","What language is your primary language?",NA,"Char 100","character",100,TRUE,NA,NA,NA
+97,"EMPLOYMENT","Which best describes your current employment status?","EMPLOYTWIST","Num 8","numeric",8,FALSE,NA,NA,NA
+98,"FOOD_SEC","In the past 12 months, did you or others in the household ever cut the size of your meals or skip meals because there wasn't enough money for food?","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+99,"FOOD_SEC_FREQ","In the past 12 months, how often did this happen?","FOODSEC","Num 8","numeric",8,FALSE,NA,NA,NA
+100,"HOMELESS_FR","In the past 12 months, did you double up or stay overnight with friends, relatives, or someone you didn’t know well because you didn’t have a regular, adequate, and safe place to stay at night?","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+101,"HOMELESS_P12M","In the past 12 months, were you ever homeless? That is, were you living on the street, in a shelter, in a Single Room Occupancy hotel (SRO), or in a car?","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+102,"HOMELESS_NUM","How many different times have you experienced homelessness in the past 12 months?","HOMELESS","Num 8","numeric",8,FALSE,NA,NA,NA
+103,"HOMELESS_LENGTH","The most recent time you experienced homelessness, how long were you unhoused?","HOMELENGTH","Num 8","numeric",8,FALSE,NA,NA,NA
+104,"HOMELESS_SHELTER","The most recent time you experienced homelessness, were you sheltered (in an emergency shelter or transitional housing) or unsheltered (sleeping on the street, in a car, in parks, sidewalks, or abandoned buildings)?","HOMESHEL","Num 8","numeric",8,FALSE,NA,NA,NA
+105,"TYP_INSA","A private health plan purchased through an employer:What kind of health insurance or healthcare coverage do you currently have? Choose all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+106,"TYP_INSA2","A private health plan purchased through an exchange (i e Obamacare):What kind of health insurance or healthcare coverage do you currently have? Choose all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+107,"TYP_INSA3","My parent's health plan:What kind of health insurance or healthcare coverage do you currently have? Choose all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+108,"TYP_INSG","Medicaid or Medicare:What kind of health insurance or healthcare coverage do you currently have? Choose all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+109,"TYP_INSH","Some other Medical Assistance program:What kind of health insurance or healthcare coverage do you currently have? Choose all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+110,"TYP_INSD","TRICARE (CHAMPUS):What kind of health insurance or healthcare coverage do you currently have? Choose all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+111,"TYP_INSE","Veterans Administration coverage:What kind of health insurance or healthcare coverage do you currently have? Choose all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+112,"TYP_INSF","Some other healthcare plan:What kind of health insurance or healthcare coverage do you currently have? Choose all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+113,"TYP_INSI","I don't currently have any health insurance:What kind of health insurance or healthcare coverage do you currently have? Choose all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+114,"TYP_INSB","I prefer not to answer:What kind of health insurance or healthcare coverage do you currently have? Choose all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+115,"TYP_INSC","Don't know:What kind of health insurance or healthcare coverage do you currently have? Choose all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+116,"HEALTH_GEN","In general, would you say your health is:","HEALTHRT","Num 8","numeric",8,FALSE,NA,NA,NA
+117,"DIAGNOSEA","Depression:Have you ever been diagnosed by a doctor with any of the health conditions below? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+118,"DIAGNOSEB","Anxiety:Have you ever been diagnosed by a doctor with any of the health conditions below? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+119,"DIAGNOSEC","Post-traumatic stress disorder (PTSD):Have you ever been diagnosed by a doctor with any of the health conditions below? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+120,"DIAGNOSED","Chronic pain:Have you ever been diagnosed by a doctor with any of the health conditions below? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+121,"DIAGNOSEL","Erectile Dysfunction (ED):Have you ever been diagnosed by a doctor with any of the health conditions below? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+122,"DIAGNOSEE","Venous thromboembolism:Have you ever been diagnosed by a doctor with any of the health conditions below? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+123,"DIAGNOSEM","Hypertension:Have you ever been diagnosed by a doctor with any of the health conditions below? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+124,"DIAGNOSEN","Coronary heart disease:Have you ever been diagnosed by a doctor with any of the health conditions below? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+125,"DIAGNOSEF","Myocardial infarction:Have you ever been diagnosed by a doctor with any of the health conditions below? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+126,"DIAGNOSEO","Heart failure:Have you ever been diagnosed by a doctor with any of the health conditions below? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+127,"DIAGNOSEG","Stroke:Have you ever been diagnosed by a doctor with any of the health conditions below? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+128,"DIAGNOSEH","Diabetes:Have you ever been diagnosed by a doctor with any of the health conditions below? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+129,"DIAGNOSEI","Obesity:Have you ever been diagnosed by a doctor with any of the health conditions below? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+130,"DIAGNOSEJ","Cancer:Have you ever been diagnosed by a doctor with any of the health conditions below? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+131,"DIAGNOSEK","None of these:Have you ever been diagnosed by a doctor with any of the health conditions below? Select all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+132,"SEEHCP","In the past 12 months, have you seen a doctor, nurse, or other healthcare provider about your physical health?","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+133,"OUTHCP","Did a healthcare provider that you saw in the past 12 months know about your gender identity?","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+134,"HCP_DISCUSSGAC_P12M","In the past 12 months, during any of your visits with a healthcare provider, did you have a discussion about gender affirming medical care (e g hormone therapy, gender-related surgeries)?","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+135,"RECCHIV","During the past 12 months, when you were seen by a doctor or healthcare provider, were you offered an HIV test? An HIV test checks whether someone has the virus that causes AIDS","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+136,"RECCSEX","During the past 12 months, did your doctor or healthcare provider talk to you about sex or sexual health?","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+137,"GENDER_APPEAR","My outward appearance represents my gender identity Do you","GENDR","Num 8","numeric",8,FALSE,NA,NA,NA
+138,"GENDER_PERCEIVE","I am generally comfortable with how others perceive my gender identity when they look at me Do you…","GENDR","Num 8","numeric",8,FALSE,NA,NA,NA
+139,"SEXPREF_TM","Transgender men or transmasculine people:Who are you sexually attracted to? (Please check all that apply)","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+140,"SEXPREF_CISMEN","Cisgender men:Who are you sexually attracted to? (Please check all that apply)","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+141,"SEXPREF_TW","Transgender women or transfeminine people:Who are you sexually attracted to? (Please check all that apply)","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+142,"SEXPREF_CISFEM","Cisgender women:Who are you sexually attracted to? (Please check all that apply)","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+143,"SEXPREF_NB","Non-binary, gender nonconforming or genderqueer people:Who are you sexually attracted to? (Please check all that apply)","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+144,"SEXPREF_NONE","None of the above:Who are you sexually attracted to? (Please check all that apply)","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+145,"SEXPREF_REF","I prefer not to answer:Who are you sexually attracted to? (Please check all that apply)","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+146,"SEXPREF_DK","Don't know:Who are you sexually attracted to? (Please check all that apply)","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+147,"SEXID_GAY","Gay:Do you consider yourself to be: (Please check all that apply)","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+148,"SEXID_LES","Lesbian:Do you consider yourself to be: (Please check all that apply)","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+149,"SEXID_HETERO","Straight:Do you consider yourself to be: (Please check all that apply)","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+150,"SEXID_BI","Bisexual:Do you consider yourself to be: (Please check all that apply)","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+151,"SEXID_PAN","Pansexual:Do you consider yourself to be: (Please check all that apply)","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+152,"SEXID_QUEER","Queer:Do you consider yourself to be: (Please check all that apply)","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+153,"SEXID_ACE","Asexual:Do you consider yourself to be: (Please check all that apply)","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+154,"SEXID_OTH","Another term - please specify::Do you consider yourself to be: (Please check all that apply)","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+155,"SEXID_REF","I prefer not to answer:Do you consider yourself to be: (Please check all that apply)","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+156,"SEXID_DK","Don't know:Do you consider yourself to be: (Please check all that apply)","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+157,"SEXID_OTH_TEXT","Another term - please specify::Do you consider yourself to be: (Please check all that apply)",NA,"Char 255","character",255,TRUE,NA,NA,NA
+158,"EVERHORMONES","Have you ever used hormones or hormone blockers for medical transition or gender affirmation?","YNHRM","Num 8","numeric",8,FALSE,NA,NA,NA
+159,"WANTHORMONES","Would you like to use hormones or hormone blockers for medical transition or gender affirmation?","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+160,"HORMONESP12M","In the past 12 months, have you used hormones or hormone blockers for medical transition or gender affirmation?","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+161,"HRMN_CVG","Does your current health insurance cover hormones or hormone blockers for medical transition or gender affirmation?","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+162,"NORXHRMN","In the past 12 months, have you used hormones or hormone blockers that were not prescribed to you by a doctor or other healthcare professional? As a reminder, your responses here are completely confidential","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+163,"HRMNSOURCE_PHARMA","Pharmacy or drug store:In the past 12 months, where did you get your hormones or hormone blockers that were not prescribed to you? You can choose more than one answer","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+164,"HRMNSOURCE_DOC","Doctor's office, clinic, or hospital:In the past 12 months, where did you get your hormones or hormone blockers that were not prescribed to you? You can choose more than one answer","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+165,"HRMNSOURCE_FRIEND","Friend, acquaintance, relative, or sex partner:In the past 12 months, where did you get your hormones or hormone blockers that were not prescribed to you? You can choose more than one answer","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+166,"HRMNSOURCE_STREET","Off the streets (dealer/black market):In the past 12 months, where did you get your hormones or hormone blockers that were not prescribed to you? You can choose more than one answer","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+167,"HRMNSOURCE_INTERNET","Online (e g Amazon):In the past 12 months, where did you get your hormones or hormone blockers that were not prescribed to you? You can choose more than one answer","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+168,"HRMNSOURCE_OTH","Other - specify::In the past 12 months, where did you get your hormones or hormone blockers that were not prescribed to you? You can choose more than one answer","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+169,"HRMNSOURCE_REF","I prefer not to answer:In the past 12 months, where did you get your hormones or hormone blockers that were not prescribed to you? You can choose more than one answer","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+170,"HRMNSOURCE_DK","Don't know:In the past 12 months, where did you get your hormones or hormone blockers that were not prescribed to you? You can choose more than one answer","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+171,"HRMNSOURCE_OTHSP","Other - specify::In the past 12 months, where did you get your hormones or hormone blockers that were not prescribed to you? You can choose more than one answer",NA,"Char 255","character",255,TRUE,NA,NA,NA
+172,"HRMNFORM_PILLS","Pills:In the past 12 months, what forms of hormones or hormone blockers did you take? You can choose more than one answer","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+173,"HRMNFORM_SKIN","Skin patch, cream or gel:In the past 12 months, what forms of hormones or hormone blockers did you take? You can choose more than one answer","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+174,"HRMNFORM_SHOTS","Shots/injection:In the past 12 months, what forms of hormones or hormone blockers did you take? You can choose more than one answer","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+175,"HRMFORM_PELLET","Pellet/implant:In the past 12 months, what forms of hormones or hormone blockers did you take? You can choose more than one answer","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+176,"HRMFORM_SPRAY","Nasal spray:In the past 12 months, what forms of hormones or hormone blockers did you take? You can choose more than one answer","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+177,"HRMNFORM_REF","I prefer not to answer:In the past 12 months, what forms of hormones or hormone blockers did you take? You can choose more than one answer","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+178,"HRMNFORM_DK","Don't know:In the past 12 months, what forms of hormones or hormone blockers did you take? You can choose more than one answer","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+179,"HRMNNDLE_PHARMA","Pharmacy or drug store:In the past 12 months, when you had a hormone or hormone blocker injection or shot, where did the needle(s) come from that were used to give the shot? You can choose more than one answer","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+180,"HRMNNDLE_DOC","Doctor's office, clinic, or hospital:In the past 12 months, when you had a hormone or hormone blocker injection or shot, where did the needle(s) come from that were used to give the shot? You can choose more than one answer","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+181,"HRMNNDLE_FRIEND","Friend, acquaintance, relative, or sex partner:In the past 12 months, when you had a hormone or hormone blocker injection or shot, where did the needle(s) come from that were used to give the shot? You can choose more than one answer","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+182,"HRMNNDLE_STREETS","Off the streets (dealer/black market):In the past 12 months, when you had a hormone or hormone blocker injection or shot, where did the needle(s) come from that were used to give the shot? You can choose more than one answer","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+183,"HRMNNDLE_ONLINE","Online or telehealth (e g Amazon, Folx):In the past 12 months, when you had a hormone or hormone blocker injection or shot, where did the needle(s) come from that were used to give the shot? You can choose more than one answer","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+184,"HRMNNDLE_NEP","Needle exchange program:In the past 12 months, when you had a hormone or hormone blocker injection or shot, where did the needle(s) come from that were used to give the shot? You can choose more than one answer","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+185,"HRMNNDLE_OTH","Other - specify::In the past 12 months, when you had a hormone or hormone blocker injection or shot, where did the needle(s) come from that were used to give the shot? You can choose more than one answer","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+186,"HRMNNDLE_REF","I prefer not to answer:In the past 12 months, when you had a hormone or hormone blocker injection or shot, where did the needle(s) come from that were used to give the shot? You can choose more than one answer","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+187,"HRMNNDLE_DK","Don't know:In the past 12 months, when you had a hormone or hormone blocker injection or shot, where did the needle(s) come from that were used to give the shot? You can choose more than one answer","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+188,"HRMNNDLE_OTHSP","Other - specify::In the past 12 months, when you had a hormone or hormone blocker injection or shot, where did the needle(s) come from that were used to give the shot? You can choose more than one answer",NA,"Char 255","character",255,TRUE,NA,NA,NA
+189,"NEWNDLEFRREQ","In the past 12 months, when you had a hormone or hormone blocker shot, how often was a new, sterile needle used? By a new, sterile needle, we mean a needle never used before by anyone, even you","NEEDFREQ","Num 8","numeric",8,FALSE,NA,NA,NA
+190,"GENSURG","Have you ever had any type of surgery or procedure for medical transition or gender affirmation?","YN12M","Num 8","numeric",8,FALSE,NA,NA,NA
+191,"FSTSURGAGE","How old were you when you had your first surgery or procedure for medical transition or gender affirmation? If you're not sure, please provide your best guess",NA,"Num 8","numeric",8,FALSE,"15 to 61",15,61
+192,"FUTSURG","Do you plan or want to get additional surgeries or procedures for medical transition or gender affirmation?","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+193,"WANTSURG","Do you want to have surgery or procedures for medical transition or gender affirmation?","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+194,"OTHINJ","Have you ever injected substances other than hormones or hormone blockers to change your body to match your gender identity?","YN12M","Num 8","numeric",8,FALSE,NA,NA,NA
+195,"OTHINJSOURCE_DOC","A doctor, nurse, or other healthcare professional:In the past 12 months, who gave you these other injections? You can choose more than one answer","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+196,"OTHINJSOURCE_ME","I gave them to myself:In the past 12 months, who gave you these other injections? You can choose more than one answer","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+197,"OTHINJSOURCE_OTH","Someone else gave them to me:In the past 12 months, who gave you these other injections? You can choose more than one answer","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+198,"OTHINJSOURCE_REF","I prefer not to answer:In the past 12 months, who gave you these other injections? You can choose more than one answer","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+199,"OTHINJSOURCE_DK","Don't know:In the past 12 months, who gave you these other injections? You can choose more than one answer","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+200,"OTHINJNDLE","In the past 12 months, when you had these other injections, how often was a new, sterile needle used? By a new, sterile needle, we mean a needle never used before by anyone, even you","NEEDFREQ","Num 8","numeric",8,FALSE,NA,NA,NA
+201,"AUDITC_OFTEN","How often did you have a drink containing alcohol in the past year?","AUDITCFREQ","Num 8","numeric",8,FALSE,NA,NA,NA
+202,"AUDITC_NUM","How many drinks did you have on a typical day when you were drinking in the past year?","AUDITCNUM","Num 8","numeric",8,FALSE,NA,NA,NA
+203,"AUDITC_6DRINKS","How often did you have 6 or more drinks on one occasion in the past year?","AUDIT","Num 8","numeric",8,FALSE,NA,NA,NA
+204,"EVR_INJ","Have you ever in your life shot up or injected any drugs other than those prescribed for you? By shooting up, we mean anytime you might have used drugs with a needle, either by mainlining, skin popping, or muscling","YN12M","Num 8","numeric",8,FALSE,NA,NA,NA
+205,"DCHOICE_A","Speedball - Heroin and cocaine together:In the past 12 months, which drug(s) have you injected? (Check all that apply )","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+206,"DCHOICE_B","Heroin, by itself:In the past 12 months, which drug(s) have you injected? (Check all that apply )","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+207,"DCHOICE_C","Cocaine, by itself:In the past 12 months, which drug(s) have you injected? (Check all that apply )","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+208,"DCHOICE_D","Crack:In the past 12 months, which drug(s) have you injected? (Check all that apply )","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+209,"DCHOICE_E","Crystal, meth, tina, crank, ice:In the past 12 months, which drug(s) have you injected? (Check all that apply )","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+210,"DCHOICE_OTH","Something else (Specify)::In the past 12 months, which drug(s) have you injected? (Check all that apply )","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+211,"DCHOICE_F","I prefer not to answer:In the past 12 months, which drug(s) have you injected? (Check all that apply )","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+212,"DCHOICE_G","Don't know:In the past 12 months, which drug(s) have you injected? (Check all that apply )","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+213,"DCHOICE_OSP","Something else (Specify)::In the past 12 months, which drug(s) have you injected? (Check all that apply )",NA,"Char 255","character",255,TRUE,NA,NA,NA
+214,"THCUSEP12M","In the past 12 months, have you used marijuana?","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+215,"NIUSE12","In the past 12 months, have you used any other drugs not prescribed to you?","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+216,"NIUSEB","Powdered cocaine (smoked or snorted):In the past 12 months, which other drugs did you use? (Check all that apply )","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+217,"NIUSEC","Poppers (amyl nitrate):In the past 12 months, which other drugs did you use? (Check all that apply )","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+218,"NIUSED","MDMA (Ecstasy, X, Molly, Bean):In the past 12 months, which other drugs did you use? (Check all that apply )","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+219,"NIUSEE","Painkillers (Fentanyl, Oxycontin, Vicodin, Percocet):In the past 12 months, which other drugs did you use? (Check all that apply )","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+220,"NIUSEF","Downers (Valium, Ativan, Xanax):In the past 12 months, which other drugs did you use? (Check all that apply )","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+221,"NIUSEG","Crystal meth (tina, crank, ice):In the past 12 months, which other drugs did you use? (Check all that apply )","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+222,"NIUSEH","Hallucinogens (LSD, DMT, mushrooms):In the past 12 months, which other drugs did you use? (Check all that apply )","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+223,"NIUSEI","Ketamine (ket, Special K):In the past 12 months, which other drugs did you use? (Check all that apply )","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+224,"NIUSEJ","GHB:In the past 12 months, which other drugs did you use? (Check all that apply )","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+225,"NIUSEK","Crack cocaine (crack):In the past 12 months, which other drugs did you use? (Check all that apply )","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+226,"NIUSEL","Heroin (smoked or snorted):In the past 12 months, which other drugs did you use? (Check all that apply )","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+227,"NIUSEN","Other drug::In the past 12 months, which other drugs did you use? (Check all that apply )","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+228,"NIUSEM","I prefer not to answer:In the past 12 months, which other drugs did you use? (Check all that apply )","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+229,"NIUSEO","Don't know:In the past 12 months, which other drugs did you use? (Check all that apply )","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+230,"NIUSEN_OTHR","Other drug::In the past 12 months, which other drugs did you use? (Check all that apply )",NA,"Char 255","character",255,TRUE,NA,NA,NA
+231,"SEXP12M_ORAL","Oral sex:In the past 12 months (since [question('value'), id='121']), what types of sex have you had? (Check all that apply )","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+232,"SEXP12M_ANAL","Anal sex:In the past 12 months (since [question('value'), id='121']), what types of sex have you had? (Check all that apply )","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+233,"SEXP12M_VAG","Vaginal sex:In the past 12 months (since [question('value'), id='121']), what types of sex have you had? (Check all that apply )","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+234,"SEXP12M_RIM","Rimming:In the past 12 months (since [question('value'), id='121']), what types of sex have you had? (Check all that apply )","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+235,"SEXP12M_OTH","Some other type of sex - please specify::In the past 12 months (since [question('value'), id='121']), what types of sex have you had? (Check all that apply )","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+236,"SEXP12M_NONE","I have not had any type of sex in the past 12 months:In the past 12 months (since [question('value'), id='121']), what types of sex have you had? (Check all that apply )","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+237,"SEXP12M_REF","I prefer not to answer:In the past 12 months (since [question('value'), id='121']), what types of sex have you had? (Check all that apply )","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+238,"SEXP12M_DK","Don't know:In the past 12 months (since [question('value'), id='121']), what types of sex have you had? (Check all that apply )","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+239,"SEXP12M_OTHSP","Some other type of sex - please specify::In the past 12 months (since [question('value'), id='121']), what types of sex have you had? (Check all that apply )",NA,"Char 255","character",255,TRUE,NA,NA,NA
+240,"SEXDETAIL_P12M_A","I put my penis (including neophallus or bottom growth) in someone else's anus:In the past 12 months (since [question('value'), id='121']):","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+241,"SEXDETAIL_P12M_B","Someone put their penis (including neophallus or bottom growth) in my anus:In the past 12 months (since [question('value'), id='121']):","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+242,"SEXDETAIL_P12M_C","I put my penis (including neophallus or bottom growth) in someone else's vagina (including neovagina, or fronthole):In the past 12 months (since [question('value'), id='121']):","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+243,"SEXDETAIL_P12M_D","Someone put their penis ((including neophallus or bottom growth) in my vagina (including neovagina, or fronthole):In the past 12 months (since [question('value'), id='121']):","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+244,"SEXDETAIL_P12M_E","I prefer not to answer:In the past 12 months (since [question('value'), id='121']):","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+245,"SEXDETAIL_P12M_F","Don't know:In the past 12 months (since [question('value'), id='121']):","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+246,"NUMSEXPARTP12M","In the past 12 months (since [question('value'), id='121']), how many different people did you have oral, anal or vaginal sex with?",NA,"Num 8","numeric",8,FALSE,"0 to 150",0,150
+247,"UAIP12M","In the past 12 months, did you have anal sex without using a condom?","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+248,"UAIP12M_HS_N","HIV-negative:In the past 12 months, what was the HIV status of the partner(s) with whom you had anal sex without a condom? (Check all that apply)","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+249,"UAIP12M_HS_P","HIV-positive:In the past 12 months, what was the HIV status of the partner(s) with whom you had anal sex without a condom? (Check all that apply)","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+250,"UAIP12M_HS_REF","I prefer not to answer:In the past 12 months, what was the HIV status of the partner(s) with whom you had anal sex without a condom? (Check all that apply)","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+251,"UAIP12M_HS_DK","Don't know:In the past 12 months, what was the HIV status of the partner(s) with whom you had anal sex without a condom? (Check all that apply)","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+252,"UAIP12M_HS_1P","In the past 12 months, what was the HIV status of the partner with whom you had anal sex without a condom?","UAIP_STAT","Num 8","numeric",8,FALSE,NA,NA,NA
+253,"UAIP12M_ART","You reported having anal sex without a condom with at least one HIV-positive partner As far as you know, were they taking HIV medications (antiretrovirals) to treat their HIV-infection? Some people will say that they are “undetectable” when taki","SOMEYESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+254,"UAIP12M_PREP","You reported having anal sex without a condom with at least one HIV-negative or unknown status partner As far as you know, were they taking pre-exposure prophylaxis (PrEP) to prevent HIV infection?","SOMEYESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+255,"UVIP12M","In the past 12 months, did you have vaginal sex without using a condom?","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+256,"UVIP12M_HS_N","HIV-negative:In the past 12 months, what was the HIV status of the partner(s) with whom you had vaginal sex without a condom? (Check all that apply)","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+257,"UVIP12M_HS_P","HIV-positive:In the past 12 months, what was the HIV status of the partner(s) with whom you had vaginal sex without a condom? (Check all that apply)","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+258,"UVIP12M_HS_REF","I prefer not to answer:In the past 12 months, what was the HIV status of the partner(s) with whom you had vaginal sex without a condom? (Check all that apply)","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+259,"UVIP12M_HS_DK","Don't know:In the past 12 months, what was the HIV status of the partner(s) with whom you had vaginal sex without a condom? (Check all that apply)","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+260,"UVIP12M_HS_1P","In the past 12 months, what was the HIV status of the partner with whom you had vaginal sex without a condom?","UAIP_STAT","Num 8","numeric",8,FALSE,NA,NA,NA
+261,"UVIP12M_ART","You reported having vaginal sex without a condom with at least one HIV-positive partner As far as you know, were they taking HIV medications (antiretrovirals) to treat their HIV-infection? Some people will say that they are “undetectable” when t","SOMEYESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+262,"UVIP12M_PREP","You reported having vaginal sex without a condom with at least one HIV-negative or unknown status partner As far as you know, were they taking pre-exposure prophylaxis (PrEP) to prevent HIV infection?","SOMEYESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+263,"GENIDPARTS_TM","Trans men or transmasculine people:Which term(s) best describe your sex partner(s) gender identities? You can choose more than one answer","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+264,"GENIDPARTS_CISMEN","Cisgender (non-trans) men:Which term(s) best describe your sex partner(s) gender identities? You can choose more than one answer","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+265,"GENIDPARTS_TW","Trans women or transfeminine people:Which term(s) best describe your sex partner(s) gender identities? You can choose more than one answer","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+266,"GENIDPARTS_CISFEM","Cisgender (non-trans) women:Which term(s) best describe your sex partner(s) gender identities? You can choose more than one answer","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+267,"GENIDPARTS_NB","Nonbinary, gender nonconforming or genderqueer people:Which term(s) best describe your sex partner(s) gender identities? You can choose more than one answer","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+268,"GENIDPARTS_OTH","Another gender identity - please specify::Which term(s) best describe your sex partner(s) gender identities? You can choose more than one answer","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+269,"GENIDPARTS_REF","I prefer not to answer:Which term(s) best describe your sex partner(s) gender identities? You can choose more than one answer","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+270,"GENIDPARTS_DK","Don't know:Which term(s) best describe your sex partner(s) gender identities? You can choose more than one answer","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+271,"GENIDPARTS_OTHSP","Another gender identity - please specify::Which term(s) best describe your sex partner(s) gender identities? You can choose more than one answer",NA,"Char 255","character",255,TRUE,NA,NA,NA
+272,"EXCHNG_NO","No:In the past 12 months, have you exchanged things like money, drugs, or a place to stay/sleep for sex? Check all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+273,"EXCHNG_GAVE","Yes, I gave a sex partner things like money, drugs, or a place to stay for sex:In the past 12 months, have you exchanged things like money, drugs, or a place to stay/sleep for sex? Check all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+274,"EXCHNG_REC","Yes, a sex partner gave me things like money, drugs, or a place to stay for sex:In the past 12 months, have you exchanged things like money, drugs, or a place to stay/sleep for sex? Check all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+275,"EXCHNG_REF","I prefer not to answer:In the past 12 months, have you exchanged things like money, drugs, or a place to stay/sleep for sex? Check all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+276,"EXCHNG_DK","Don't know:In the past 12 months, have you exchanged things like money, drugs, or a place to stay/sleep for sex? Check all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+277,"EVERTEST","Have you ever been tested for HIV?An HIV test checks whether someone has the virus that causes AIDS","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+278,"TEST2YRS","In the past 2 years (since [system('date'),format='F'] of 2024), how many times have you been tested for HIV?",NA,"Num 8","numeric",8,FALSE,"0 to 36",0,36
+279,"RCNTSTMONTH","Month::When did you have your most recent HIV test?If you don't know the exact month, please select your best guess","MO","Num 8","numeric",8,FALSE,NA,NA,NA
+280,"RCNTSTYEAR","Year::When did you have your most recent HIV test?If you don't know the exact month, please select your best guess",NA,"Num 8","numeric",8,FALSE,"1986 to 2026",1986,2026
+281,"HIVTESTDATE","HIV test date",NA,"Char 100","character",100,TRUE,NA,NA,NA
+282,"TSTP12M","Have you had an HIV test in the past 12 months (since [question('value'), id='121'])?","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+283,"LOCHIV_T","When you most recently got tested in [question(value), id=182], where did you get tested?","HIVLOC","Num 8","numeric",8,FALSE,NA,NA,NA
+284,"RCNTRSLT","What was the result of your most recent HIV test in [question('value'), id='182']?","TESTRES","Num 8","numeric",8,FALSE,NA,NA,NA
+285,"EVRPOS","Before your most recent test in [question('value'), id='182'], did you ever test positive for HIV?","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+286,"RCNFRST","Was your most recent test in [question('value'), id='182'] your first positive test?","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+287,"POS1STMONTH","Month::When did you first test positive?","MO","Num 8","numeric",8,FALSE,NA,NA,NA
+288,"HIVCARE_P12M","In the past 12 months, have you seen a doctor, nurse, or other healthcare provider for HIV medical care?","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+289,"CURRAMED","Are you currently taking antiretroviral medicines to treat your HIV infection?","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+290,"ANYSTI_TEST","In the past 12 months, that is, since [question('value'), id='121'], were you tested for a sexually transmitted infection like gonorrhea, chlamydia, or syphilis?","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+291,"STITEST_BLOOD","I had my blood drawn:In the past 12 months, when you were tested for a sexually transmitted infection like gonorrhea, chlamydia, or syphilis, what samples did you provide for testing? Check all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+292,"STITEST_URINE","I gave a urine sample:In the past 12 months, when you were tested for a sexually transmitted infection like gonorrhea, chlamydia, or syphilis, what samples did you provide for testing? Check all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+293,"STITEST_RECTUM","I had my rectum (anus) swabbed:In the past 12 months, when you were tested for a sexually transmitted infection like gonorrhea, chlamydia, or syphilis, what samples did you provide for testing? Check all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+294,"STITEST_GEN","I had my genitals swabbed:In the past 12 months, when you were tested for a sexually transmitted infection like gonorrhea, chlamydia, or syphilis, what samples did you provide for testing? Check all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+295,"STITEST_THROAT","I had my throat swabbed:In the past 12 months, when you were tested for a sexually transmitted infection like gonorrhea, chlamydia, or syphilis, what samples did you provide for testing? Check all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+296,"STITEST_REF","I prefer not to answer:In the past 12 months, when you were tested for a sexually transmitted infection like gonorrhea, chlamydia, or syphilis, what samples did you provide for testing? Check all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+297,"STITEST_DK","Don't know:In the past 12 months, when you were tested for a sexually transmitted infection like gonorrhea, chlamydia, or syphilis, what samples did you provide for testing? Check all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+298,"BSTIA","Gonorrhea:In the past 12 months (since [question('value'), id='121']), has a doctor, nurse, or other healthcare provider told you that you had any of the following? Check all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+299,"BSTIB","Chlamydia:In the past 12 months (since [question('value'), id='121']), has a doctor, nurse, or other healthcare provider told you that you had any of the following? Check all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+300,"BSTIC","Syphilis:In the past 12 months (since [question('value'), id='121']), has a doctor, nurse, or other healthcare provider told you that you had any of the following? Check all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+301,"BSTID","None of the above:In the past 12 months (since [question('value'), id='121']), has a doctor, nurse, or other healthcare provider told you that you had any of the following? Check all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+302,"BSTIE","I prefer not to answer:In the past 12 months (since [question('value'), id='121']), has a doctor, nurse, or other healthcare provider told you that you had any of the following? Check all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+303,"BSTIF","Don't know:In the past 12 months (since [question('value'), id='121']), has a doctor, nurse, or other healthcare provider told you that you had any of the following? Check all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+304,"MPOX_TESTP12M","Have you been tested for Mpox in the past 12 months?","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+305,"MPOX_EVERDX","Have you ever been diagnosed with Mpox?","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+306,"MPOX_EVERVAX","Have you ever received an Mpox vaccine?","MPOXVAX","Num 8","numeric",8,FALSE,NA,NA,NA
+307,"PEPAWARE","Before this survey, had you heard that Doxy-PEP can be used to reduce a person’s chance of getting gonorrhea, chlamydia, and syphilis if taken within 72 hours after sex?","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+308,"PEPUSED","Have you taken Doxy-PEP to reduce your chance of getting gonorrhea, chlamydia, and syphilis after sex?","YN12M","Num 8","numeric",8,FALSE,NA,NA,NA
+309,"PEPWILL","How willing would you be to use Doxy-PEP to reduce your chance of getting gonorrhea, chlamydia, and syphilis after sex?","PEPWILL","Num 8","numeric",8,FALSE,NA,NA,NA
+310,"PREP_EVER","Have you ever taken PrEP?","YNHRM","Num 8","numeric",8,FALSE,NA,NA,NA
+311,"CURRENT_PREP_RX","Which PrEP prescription medication are you currently taking?","TYPEPREPTHREE","Num 8","numeric",8,FALSE,NA,NA,NA
+312,"INJPREP_LOC","Where do you go to get your PrEP injections?","INJPREP_LOC","Num 8","numeric",8,FALSE,NA,NA,NA
+313,"INJPREP_LOC_OSP","Other: please specify::Where do you go to get your PrEP injections?",NA,"Char 255","character",255,TRUE,NA,NA,NA
+314,"PREP_DOSES","In the last 30 days, about how many doses of PrEP did you take?","PREPDOSE","Num 8","numeric",8,FALSE,NA,NA,NA
+315,"OD_PREP_CURRENT","Are you currently taking oral PrEP on demand?","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+316,"PREP_MONTHS","How many months in a row have you been taking [question(title), id=231]?","PREPMNTH","Num 8","numeric",8,FALSE,NA,NA,NA
+317,"PREP_MONTHSINJ","How long have you been on PrEP injections?","MONTHSAPRE","Num 8","numeric",8,FALSE,NA,NA,NA
+318,"INJPREP_MONTHS","In the past 12 months, how many PrEP injections have you received?","APMONTHS","Num 8","numeric",8,FALSE,NA,NA,NA
+319,"OTHER_PREP","In the past 12 months, have you taken any other PrEP medication?","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+320,"OTHERPREPRX_T","Truvada (Emtricitabine/Tenofovir):In the past 12 months, which other PrEP prescription medications did you take? Choose all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+321,"OTHERPREPRX_D","Descovy (Emtricitabine/Tenofovir Alafenamide):In the past 12 months, which other PrEP prescription medications did you take? Choose all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+322,"OTHERPREPRX_A","Apretude (Cabotegravir):In the past 12 months, which other PrEP prescription medications did you take? Choose all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+323,"OTHERPREPRX_Y","Yeztugo (Lenacapavir):In the past 12 months, which other PrEP prescription medications did you take? Choose all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+324,"OTHERPREPRX_NA","I prefer not to answer:In the past 12 months, which other PrEP prescription medications did you take? Choose all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+325,"OTHERPREPRX_DN","Don’t know:In the past 12 months, which other PrEP prescription medications did you take? Choose all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+326,"PREP_USED","When did you last take PrEP?","PREPUSED","Num 8","numeric",8,FALSE,NA,NA,NA
+327,"PREPRX_LASTTIME","Which PrEP medications were you using last time you used PrEP?","TYPEPREPTHREE","Num 8","numeric",8,FALSE,NA,NA,NA
+328,"INJPREP_LOC_P12M","Where did you go to get your PrEP injections?","INJPREP_LOC","Num 8","numeric",8,FALSE,NA,NA,NA
+329,"INJPREP_LOC_P12M_OTH","Other: please specify:Where did you go to get your PrEP injections?",NA,"Char 255","character",255,TRUE,NA,NA,NA
+330,"PREPSTOP_REASON_A","It was too expensive:Which of the following describes the reason(s) why you stopped using PrEP the last time you were on it: (Check all that apply)","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+331,"PREPSTOP_REASON_B","I lost my job and/or insurance:Which of the following describes the reason(s) why you stopped using PrEP the last time you were on it: (Check all that apply)","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+332,"PREPSTOP_REASON_C","I did not have reliable transportation to get to my PrEP provider:Which of the following describes the reason(s) why you stopped using PrEP the last time you were on it: (Check all that apply)","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+333,"PREPSTOP_REASON_D","I was concerned about the side-effects:Which of the following describes the reason(s) why you stopped using PrEP the last time you were on it: (Check all that apply)","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+334,"PREPSTOP_REASON_O","The injections were painful or uncomfortable:Which of the following describes the reason(s) why you stopped using PrEP the last time you were on it: (Check all that apply)","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+335,"PREPSTOP_REASON_P","It was difficult to keep the injection schedule:Which of the following describes the reason(s) why you stopped using PrEP the last time you were on it: (Check all that apply)","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+336,"PREPSTOP_REASON_E","I could not remember to take the pill everyday:Which of the following describes the reason(s) why you stopped using PrEP the last time you were on it: (Check all that apply)","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+337,"PREPSTOP_REASON_F","I started a monogamous relationship with an HIV-negative partner:Which of the following describes the reason(s) why you stopped using PrEP the last time you were on it: (Check all that apply)","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+338,"PREPSTOP_REASON_G","I stopped being sexually active:Which of the following describes the reason(s) why you stopped using PrEP the last time you were on it: (Check all that apply)","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+339,"PREPSTOP_REASON_H","I prefer to use other methods to protect myself from HIV:Which of the following describes the reason(s) why you stopped using PrEP the last time you were on it: (Check all that apply)","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+340,"PREPSTOP_REASON_N","I was concerned that using PrEP may diminish the effects of my hormone therapy:Which of the following describes the reason(s) why you stopped using PrEP the last time you were on it: (Check all that apply)","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+341,"PREPSTOP_REASON_I","I was worried that people will think that I have HIV when they see me taking the pill:Which of the following describes the reason(s) why you stopped using PrEP the last time you were on it: (Check all that apply)","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+342,"PREPSTOP_REASON_J","I was worried people will think I was very sexually active because I am on PrEP:Which of the following describes the reason(s) why you stopped using PrEP the last time you were on it: (Check all that apply)","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+343,"PREPSTOP_REASON_K","I was worried about my privacy with someone that I live with:Which of the following describes the reason(s) why you stopped using PrEP the last time you were on it: (Check all that apply)","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+344,"PREPSTOP_REASON_L","I was worried about my privacy on my parent's health insurance plan:Which of the following describes the reason(s) why you stopped using PrEP the last time you were on it: (Check all that apply)","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+345,"PREPSTOP_REASON_M","I was unable or did not want to participate in the recommended sexually transmitted infection (gonorrhea, chlamydia, and syphilis) testing during clinic visits for PrEP care:Which of the following describes the reason(s) why you stopped using PrEP the las","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+346,"PREPSTOP_REASON_OTH","Another reason:Which of the following describes the reason(s) why you stopped using PrEP the last time you were on it: (Check all that apply)","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+347,"QD_PREP_AWARE","Before today, have you ever heard of daily oral PrEP?","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+348,"PREP_WILL1","If daily oral PrEP were available from your local doctor and you could access it for free, would you go to your doctor in the next month to start daily oral PrEP?","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+349,"OD_PREP_AWARE","Before today, have you ever heard of on-demand oral PrEP?","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+350,"PREP_WILL2","If on-demand oral PrEP were available from your local doctor and you could access it for free, would you go to your doctor in the next month to start on-demand oral PrEP?","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+351,"INJ_PREP_AWARE","Before today, have you ever heard of injectable PrEP?","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+352,"INJ_PREP_WILL","If injectable PrEP were free and locally available, would you go to your local healthcare provider in the next month to start injectable PrEP?","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+353,"INJ_PREP_NOREAS_A","I prefer to use other methods to protect myself from HIV:Which of the following describes the reason(s) why you would not want to start injectable PrEP? Choose all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+354,"INJ_PREP_NOREAS_B","I’m worried about side effects of the injections:Which of the following describes the reason(s) why you would not want to start injectable PrEP? Choose all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+355,"INJ_PREP_NOREAS_C","I’m worried about long-term effects of injectable PrEP:Which of the following describes the reason(s) why you would not want to start injectable PrEP? Choose all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+356,"INJ_PREP_NOREAS_D","I’m worried injectable PrEP might interfere with other medications I take:Which of the following describes the reason(s) why you would not want to start injectable PrEP? Choose all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+357,"INJ_PREP_NOREAS_E","I prefer not to have medication in my body for an extended period:Which of the following describes the reason(s) why you would not want to start injectable PrEP? Choose all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+358,"INJ_PREP_NOREAS_F","The injections may be painful or uncomfortable:Which of the following describes the reason(s) why you would not want to start injectable PrEP? Choose all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+359,"INJ_PREP_NOREAS_G","I’m afraid of needles:Which of the following describes the reason(s) why you would not want to start injectable PrEP? Choose all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+360,"INJ_PREP_NOREAS_H","I don’t know enough about injectable PrEP to make a decision:Which of the following describes the reason(s) why you would not want to start injectable PrEP? Choose all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+361,"INJ_PREP_NOREAS_I","I don’t have reliable transportation to get to my local healthcare provider:Which of the following describes the reason(s) why you would not want to start injectable PrEP? Choose all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+362,"INJ_PREP_NOREAS_J","It may be difficult to keep the injection schedule:Which of the following describes the reason(s) why you would not want to start injectable PrEP? Choose all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+363,"INJ_PREP_NOREAS_K","I’m in a monogamous relationship with an HIV-negative partner:Which of the following describes the reason(s) why you would not want to start injectable PrEP? Choose all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+364,"INJ_PREP_NOREAS_L","I’m not sexually active:Which of the following describes the reason(s) why you would not want to start injectable PrEP? Choose all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+365,"INJ_PREP_NOREAS_M","I’m worried people will think that I have HIV when going to the clinic for the injection:Which of the following describes the reason(s) why you would not want to start injectable PrEP? Choose all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+366,"INJ_PREP_NOREAS_N","I’m worried people will think I am very sexually active because I’m getting injectable PrEP:Which of the following describes the reason(s) why you would not want to start injectable PrEP? Choose all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+367,"INJ_PREP_NOREAS_O","I’m worried about being judged by clinic staff:Which of the following describes the reason(s) why you would not want to start injectable PrEP? Choose all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+368,"INJ_PREP_NOREAS_P","I’m worried about my privacy with someone who I live with:Which of the following describes the reason(s) why you would not want to start injectable PrEP? Choose all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+369,"INJ_PREP_NOREAS_Q","I’m worried about my privacy on my parent’s health insurance plan:Which of the following describes the reason(s) why you would not want to start injectable PrEP? Choose all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+370,"INJ_PREP_NOREAS_R","I don’t trust the pharmaceutical industry:Which of the following describes the reason(s) why you would not want to start injectable PrEP? Choose all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+371,"INJ_PREP_NOREAS_S","Another reason:Which of the following describes the reason(s) why you would not want to start injectable PrEP? Choose all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+372,"PREP_RANK_QD","Daily oral PrEP:You said you’d be willing to start all 3 ways of taking PrEP If the same doctor offered all 3 PrEP options to you, rank them in order of which you would be most likely to choose to start 1 is the one you would be most likely to choose,",NA,"Num 8","numeric",8,FALSE,"1 to 3",1,3
+373,"PREP_RANK_OD","On-Demand oral PrEP:You said you’d be willing to start all 3 ways of taking PrEP If the same doctor offered all 3 PrEP options to you, rank them in order of which you would be most likely to choose to start 1 is the one you would be most likely to cho",NA,"Num 8","numeric",8,FALSE,"1 to 3",1,3
+374,"PREP_RANK_INJ","Injectable PrEP:You said you’d be willing to start all 3 ways of taking PrEP If the same doctor offered all 3 PrEP options to you, rank them in order of which you would be most likely to choose to start 1 is the one you would be most likely to choose,",NA,"Num 8","numeric",8,FALSE,"1 to 3",1,3
+375,"PREP_QDXOD","You said you’d be willing to take oral PrEP daily or on-demand If the same doctor offered both options to you, which would you choose to start?","PREPCHOICEA","Num 8","numeric",8,FALSE,NA,NA,NA
+376,"PREP_QDXINJ","You said you’d be willing to take daily oral PrEP or injectable PrEP If the same doctor offered both options to you, which would you choose to start?","PREPCHOICEB","Num 8","numeric",8,FALSE,NA,NA,NA
+377,"PREP_ODXINJ","You said you’d be willing to take on-demand oral PrEP or injectable PrEP If the same doctor offered both options to you, which would you choose to start?","PREPCHOICEC","Num 8","numeric",8,FALSE,NA,NA,NA
+378,"OD_PREP_AWARE2","Before today, have you ever heard of on-demand oral PrEP?","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+379,"PREP_USE_OD","Have you ever used on-demand oral PrEP?","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+380,"PREP_SWITCH","If on-demand oral PrEP were available from your local doctor and you could access it for free, would you go to your doctor in the next month to start on-demand oral PrEP?","SWITCHOD","Num 8","numeric",8,FALSE,NA,NA,NA
+381,"INJ_PREP_AWARE2","Before today, have you ever heard of injectable PrEP?","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+382,"PREP_SWITCH2","If injectable PrEP were free and locally available, would you go to your local healthcare provider in the next month to start injectable PrEP?","SWITCHINJ","Num 8","numeric",8,FALSE,NA,NA,NA
+383,"INJ_PREP_NOREAS2_A","I prefer to use other methods to protect myself from HIV:Which of the following describes the reason(s) why you would not want to start injectable PrEP? Choose all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+384,"INJ_PREP_NOREAS2_B","I’m worried about side effects of the injections:Which of the following describes the reason(s) why you would not want to start injectable PrEP? Choose all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+385,"INJ_PREP_NOREAS2_C","I’m worried about long-term effects of injectable PrEP:Which of the following describes the reason(s) why you would not want to start injectable PrEP? Choose all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+386,"INJ_PREP_NOREAS2_D","I’m worried injectable PrEP might interfere with other medications I take:Which of the following describes the reason(s) why you would not want to start injectable PrEP? Choose all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+387,"INJ_PREP_NOREAS2_E","I prefer not to have medication in my body for an extended period:Which of the following describes the reason(s) why you would not want to start injectable PrEP? Choose all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+388,"INJ_PREP_NOREAS2_F","The injections may be painful or uncomfortable:Which of the following describes the reason(s) why you would not want to start injectable PrEP? Choose all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+389,"INJ_PREP_NOREAS2_G","I’m afraid of needles:Which of the following describes the reason(s) why you would not want to start injectable PrEP? Choose all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+390,"INJ_PREP_NOREAS2_H","I don’t know enough about injectable PrEP to make a decision:Which of the following describes the reason(s) why you would not want to start injectable PrEP? Choose all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+391,"INJ_PREP_NOREAS2_I","I don’t have reliable transportation to get to my local healthcare provider:Which of the following describes the reason(s) why you would not want to start injectable PrEP? Choose all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+392,"INJ_PREP_NOREAS2_J","It may be difficult to keep the injection schedule:Which of the following describes the reason(s) why you would not want to start injectable PrEP? Choose all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+393,"INJ_PREP_NOREAS2_K","I’m in a monogamous relationship with an HIV-negative partner:Which of the following describes the reason(s) why you would not want to start injectable PrEP? Choose all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+394,"INJ_PREP_NOREAS2_L","I’m not sexually active:Which of the following describes the reason(s) why you would not want to start injectable PrEP? Choose all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+395,"INJ_PREP_NOREAS2_M","I’m worried people will think that I have HIV when going to the clinic for the injection:Which of the following describes the reason(s) why you would not want to start injectable PrEP? Choose all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+396,"INJ_PREP_NOREAS2_N","I’m worried people will think I am very sexually active because I’m getting injectable PrEP:Which of the following describes the reason(s) why you would not want to start injectable PrEP? Choose all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+397,"INJ_PREP_NOREAS2_O","I’m worried about being judged by clinic staff:Which of the following describes the reason(s) why you would not want to start injectable PrEP? Choose all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+398,"INJ_PREP_NOREAS2_P","I’m worried about my privacy with someone who I live with:Which of the following describes the reason(s) why you would not want to start injectable PrEP? Choose all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+399,"INJ_PREP_NOREAS2_Q","I’m worried about my privacy on my parent’s health insurance plan:Which of the following describes the reason(s) why you would not want to start injectable PrEP? Choose all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+400,"INJ_PREP_NOREAS2_S","Another reason:Which of the following describes the reason(s) why you would not want to start injectable PrEP? Choose all that apply","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+401,"PREP_SWITCH3","You said you’d be willing to switch to on-demand oral PrEP or injectable PrEP If the same doctor offered both options to you, which would you choose?","SWITCH_ODVINJ","Num 8","numeric",8,FALSE,NA,NA,NA
+402,"QD_PREP_AWARE2","Before today, have you ever heard of daily oral PrEP?","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+403,"PREP_USE_QD","Have you ever used daily oral PrEP?","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+404,"PREP_SWITCH_OD_QD","If daily oral PrEP were available from your local doctor and you could access it for free, would you go to your doctor in the next month to start daily oral PrEP?","SWITCH_OD_QD","Num 8","numeric",8,FALSE,NA,NA,NA
+405,"INJ_PREP_AWARE3","Before today, have you ever heard of injectable PrEP?","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+406,"PREP_SWITCH_OD_INJ","If injectable PrEP were available from your local doctor and you could access it for free, would you go to your doctor in the next month to start injectable PrEP?","SWITCH_OD_INJ","Num 8","numeric",8,FALSE,NA,NA,NA
+407,"PREP_SWITCH7","You said you’d be willing to switch to daily oral PrEP or injectable PrEP If the same doctor offered both options to you, which would you choose?","SWITCH_QDVINJ","Num 8","numeric",8,FALSE,NA,NA,NA
+408,"QD_PREP_AWARE3","Before today, have you ever heard of daily oral PrEP?","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+409,"PREP_USE_QD2","Have you ever used daily oral PrEP?","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+410,"PREP_SWITCH4","If daily oral PrEP were available from your local doctor and you could access it for free, would you go to your doctor in the next month to start daily oral PrEP?","SWITCH_INJ_QD","Num 8","numeric",8,FALSE,NA,NA,NA
+411,"OD_PREP_AWARE3","Before today, have you ever heard of on-demand oral PrEP?","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+412,"PREP_USE_OD2","Have you ever used on-demand oral PrEP?","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+413,"PREP_SWITCH5","If on-demand oral PrEP were available from your local doctor and you could access it for free, would you go to your doctor in the next month to start on-demand oral PrEP?","SWITCH_INJ_OD","Num 8","numeric",8,FALSE,NA,NA,NA
+414,"PREP_SWITCH6","You said you’d be willing to switch to daily oral PrEP or on-demand oral PrEP If the same doctor offered both options to you, which would you choose?","SWITCH_QDVOD","Num 8","numeric",8,FALSE,NA,NA,NA
+415,"PHQ9_INTEREST","Little interest or pleasure in doing things?:Over the last 2 weeks, how often have you been bothered by any of the following","PHQSCALE","Num 8","numeric",8,FALSE,NA,NA,NA
+416,"PHQ9_HOPELESS","Feeling down, depressed, or hopeless?:Over the last 2 weeks, how often have you been bothered by any of the following","PHQSCALE","Num 8","numeric",8,FALSE,NA,NA,NA
+417,"PHQ9_SLEEP","Trouble falling or staying asleep, or sleeping too much?:Over the last 2 weeks, how often have you been bothered by any of the following","PHQSCALE","Num 8","numeric",8,FALSE,NA,NA,NA
+418,"PHQ9_TIRED","Feeling tired or having little energy?:Over the last 2 weeks, how often have you been bothered by any of the following","PHQSCALE","Num 8","numeric",8,FALSE,NA,NA,NA
+419,"PHQ9_EAT","Poor appetite, or overeating?:Over the last 2 weeks, how often have you been bothered by any of the following","PHQSCALE","Num 8","numeric",8,FALSE,NA,NA,NA
+420,"PHQ9_FAILURE","Feeling bad about yourself – or that you are a failure or have let yourself or your family down?:Over the last 2 weeks, how often have you been bothered by any of the following","PHQSCALE","Num 8","numeric",8,FALSE,NA,NA,NA
+421,"PHQ9_FOCUS","Trouble concentrating on things, such as reading the newspaper or watching television?:Over the last 2 weeks, how often have you been bothered by any of the following","PHQSCALE","Num 8","numeric",8,FALSE,NA,NA,NA
+422,"PHQ9_MOVE","Moving or speaking so slowly that other people could have noticed Or the opposite – being so fidgety or restless that you have been moving around a lot more than usual?:Over the last 2 weeks, how often have you been bothered by any of the following","PHQSCALE","Num 8","numeric",8,FALSE,NA,NA,NA
+423,"PHQ9_THOUGHT","Thoughts that you would be better off dead, or of hurting yourself?:Over the last 2 weeks, how often have you been bothered by any of the following","PHQSCALE","Num 8","numeric",8,FALSE,NA,NA,NA
+424,"SUICIDE_THINK","At any time in the past 12 months, up to and including today, did you seriously think about trying to kill yourself?","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+425,"SUICIDE_PLANS","During the past 12 months, did you make any plans to kill yourself?","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+426,"SUICIDE_TRY","During the past 12 months, did you try to kill yourself?","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+427,"MHSU1","In the past 12 months, have you talked to a healthcare professional about your emotions, nerves, or mental health?","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+428,"MHSU2","During the past 12 months, did you receive any treatment, therapy or counseling for your emotions, nerves, or mental health?","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+429,"GENIDSTIGMA_A1","Felt excluded from family activities because of your gender identity?","STIGMATW","Num 8","numeric",8,FALSE,NA,NA,NA
+430,"STIGMA_A1","Felt excluded from family activities because of who you have sex with?","STIGMATW","Num 8","numeric",8,FALSE,NA,NA,NA
+431,"GENIDSTIGMA_A2","Felt that family members have made discriminatory remarks or gossiped about you because of your gender identity?","STIGMATW","Num 8","numeric",8,FALSE,NA,NA,NA
+432,"STIGMA_A2","Felt that family members have made discriminatory remarks or gossiped about you because of who you have sex with?","STIGMATW","Num 8","numeric",8,FALSE,NA,NA,NA
+433,"GENIDSTIGMA_A3","Felt rejected by your friends because of your gender identity?","STIGMATW","Num 8","numeric",8,FALSE,NA,NA,NA
+434,"STIGMA_A3","Felt rejected by your friends because of who you have sex with?","STIGMATW","Num 8","numeric",8,FALSE,NA,NA,NA
+435,"GENIDSTIGMA_B1","Felt afraid to go to healthcare services because you worry someone may treat you poorly because of your gender identity?","STIGMATW","Num 8","numeric",8,FALSE,NA,NA,NA
+436,"STIGMA_B1","Felt afraid to go to healthcare services because you worry someone may treat you poorly because of who you have sex with?","STIGMATW","Num 8","numeric",8,FALSE,NA,NA,NA
+437,"GENIDSTIGMA_B2","Ever avoided going to healthcare services because you worry someone may treat you poorly because of your gender identity?","STIGMATW","Num 8","numeric",8,FALSE,NA,NA,NA
+438,"STIGMA_B2","Ever avoided going to healthcare services because you worry someone may treat you poorly because of who you have sex with?","STIGMATW","Num 8","numeric",8,FALSE,NA,NA,NA
+439,"GENIDSTIGMA_B3","Ever heard healthcare providers gossiping about you (talking about you) because of your gender identity?","STIGMATW","Num 8","numeric",8,FALSE,NA,NA,NA
+440,"STIGMA_B3","Ever heard healthcare providers gossiping about you (talking about you) because of who you have sex with?","STIGMATW","Num 8","numeric",8,FALSE,NA,NA,NA
+441,"GENIDSTIGMA_B4","Ever felt that you were not treated well in a health center because someone knew about your gender identity?","STIGMATW","Num 8","numeric",8,FALSE,NA,NA,NA
+442,"STIGMA_B4","Ever felt that you were not treated well in a health center because someone knew about who you have sex with?","STIGMATW","Num 8","numeric",8,FALSE,NA,NA,NA
+443,"GENIDSTIGMA_B5","Ever worried that a healthcare provider would judge you for your gender identity?","STIGMATW","Num 8","numeric",8,FALSE,NA,NA,NA
+444,"STIGMA_B5","Ever worried that a healthcare provider would judge you for who you have sex with?","STIGMATW","Num 8","numeric",8,FALSE,NA,NA,NA
+445,"GENIDSTIGMA_B6","Ever worried that a healthcare provider would treat you differently if you told them about your gender identity?","STIGMATW","Num 8","numeric",8,FALSE,NA,NA,NA
+446,"STIGMA_B6","Ever worried that a healthcare provider would treat you differently if you told them about who you have sex with?","STIGMATW","Num 8","numeric",8,FALSE,NA,NA,NA
+447,"GENIDSTIGMA_B7","Ever been concerned you would make a healthcare provider uncomfortable talking about your gender identity?","STIGMATW","Num 8","numeric",8,FALSE,NA,NA,NA
+448,"STIGMA_B7","Ever been concerned you would make a healthcare provider uncomfortable talking about who you have sex with?","STIGMATW","Num 8","numeric",8,FALSE,NA,NA,NA
+449,"GENIDSTIGMA_C1","Ever felt that the police refused to protect you because of your gender identity?","STIGMATW","Num 8","numeric",8,FALSE,NA,NA,NA
+450,"STIGMA_C1","Ever felt that the police refused to protect you because of who you have sex with?","STIGMATW","Num 8","numeric",8,FALSE,NA,NA,NA
+451,"GENIDSTIGMA_C2","Ever felt scared to be in public places because of your gender identity?","STIGMATW","Num 8","numeric",8,FALSE,NA,NA,NA
+452,"STIGMA_C2","Ever felt scared to be in public places because of who you have sex with?","STIGMATW","Num 8","numeric",8,FALSE,NA,NA,NA
+453,"GENIDSTIGMA_C3","Ever been verbally harassed and felt it was because of your gender identity?","STIGMATW","Num 8","numeric",8,FALSE,NA,NA,NA
+454,"STIGMA_C3","Ever been verbally harassed and felt it was because of who you have sex with?","STIGMATW","Num 8","numeric",8,FALSE,NA,NA,NA
+455,"GENIDSTIGMA_D1","Has someone ever physically hurt you (pushed, shoved, slapped, hit, kicked, choked, or otherwise physically hurt you)?","STIGMATW","Num 8","numeric",8,FALSE,NA,NA,NA
+456,"GENIDSTIGMA_D2","Do you believe any of these experiences of physical violence was/were related to your gender identity?","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+457,"STIGMA_D2","Do you believe any of these experiences of physical violence was/were related to who you have sex with?","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+458,"GENIDSTIGMA_D3","Have you ever been forced to have sex when you did not want to? By forced, we mean physically forced or coerced to have sex, or penetrated with an object, when you did not want to?","STIGMATW","Num 8","numeric",8,FALSE,NA,NA,NA
+459,"GENIDSTIGMA_D4","Do you believe any of these experiences of sexual violence was/were related to your gender identity?","STIGMATW","Num 8","numeric",8,FALSE,NA,NA,NA
+460,"STIGMA_D4","Do you believe any of these experiences of sexual violence was/were related to who you have sex with?","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+461,"INDIA_1","Because of who I am, a doctor or nurse, or other healthcare provider might treat me poorly","DIARRF","Num 8","numeric",8,FALSE,NA,NA,NA
+462,"INDIA_2","Because of who I am, I might have trouble finding or keeping a job","DIARRF","Num 8","numeric",8,FALSE,NA,NA,NA
+463,"INDIA_3","Because of who I am, I might have trouble getting an apartment or house","DIARRF","Num 8","numeric",8,FALSE,NA,NA,NA
+464,"INDIA_4","Because of who I am, I worry about being treated unfairly by a teacher, supervisor, or employer","DIARRF","Num 8","numeric",8,FALSE,NA,NA,NA
+465,"INDIA_5","Because of who I am, I may be denied a bank account, loan, or mortgage","DIARRF","Num 8","numeric",8,FALSE,NA,NA,NA
+466,"INDIA_6","Because of who I am, I worry about being harassed or stopped by police or security","DIARRF","Num 8","numeric",8,FALSE,NA,NA,NA
+467,"INDIA_7","Because of who I am, people might try to attack me physically","DIARRF","Num 8","numeric",8,FALSE,NA,NA,NA
+468,"INDIA_8","Because of who I am, I expect to be pointed at, called names, or harassed when in public","DIARRF","Num 8","numeric",8,FALSE,NA,NA,NA
+469,"INDIA_9","Because of who I am, I fear that I will have a hard time finding friendship or romance","DIARRF","Num 8","numeric",8,FALSE,NA,NA,NA
+470,"INDID_1","Because of who you are, have you heard, saw, or read others joking or laughing about you (or people like you)?","INDID","Num 8","numeric",8,FALSE,NA,NA,NA
+471,"INDID_2","Because of who you are, have you ever been treated as unfriendly, unhelpful, or rude?","INDID","Num 8","numeric",8,FALSE,NA,NA,NA
+472,"INDID_3","Because of who you are, have you been called names or heard/seen your identity used as an insult?","INDID","Num 8","numeric",8,FALSE,NA,NA,NA
+473,"INDID_4","Because of who you are, have you been treated as if others are afraid of you?","INDID","Num 8","numeric",8,FALSE,NA,NA,NA
+474,"INDID_5","Because of who you are, have you been stared at or pointed at in public?","INDID","Num 8","numeric",8,FALSE,NA,NA,NA
+475,"INDID_6","Because of who you are, have you been told you should think, act, or look more like others?","INDID","Num 8","numeric",8,FALSE,NA,NA,NA
+476,"INDID_7","Because of who you are, have you heard that you or people like you don’t belong?","INDID","Num 8","numeric",8,FALSE,NA,NA,NA
+477,"INDID_8","Because of who you are, have you been asked inappropriate, offensive, or overly personal questions?","INDID","Num 8","numeric",8,FALSE,NA,NA,NA
+478,"INDID_9","Because of who you are, have you been treated as less smart or capable than others?","INDID","Num 8","numeric",8,FALSE,NA,NA,NA
+479,"INDIM_1","Because of who you are, has a healthcare provider refused you care?","INDIM","Num 8","numeric",8,FALSE,NA,NA,NA
+480,"INDIM_2","Because of who you are, have you been fired or dismissed from a job, or turned down for a job that you interviewed for?","INDIM","Num 8","numeric",8,FALSE,NA,NA,NA
+481,"INDIM_3","Because of who you are, have you ever been evicted or denied housing?","INDIM","Num 8","numeric",8,FALSE,NA,NA,NA
+482,"INDIM_4","Because of who you are, have you been unreasonably stopped and questioned, searched, or arrested?","INDIM","Num 8","numeric",8,FALSE,NA,NA,NA
+483,"INDIM_5","Because of who you are, have you ever been unreasonably expelled or suspended from school?","INDIM","Num 8","numeric",8,FALSE,NA,NA,NA
+484,"INDIM_6","Because of who you are, have you ever been unable to open a bank account, cash a check, or get a loan?","INDIM","Num 8","numeric",8,FALSE,NA,NA,NA
+485,"INDIM_7","Because of who you are, have you ever had to move to another neighborhood, town, city, state, province, or country?","INDIM","Num 8","numeric",8,FALSE,NA,NA,NA
+486,"INDIM_8","Because of who you are, have you lost a close relationship?","INDIM","Num 8","numeric",8,FALSE,NA,NA,NA
+487,"INDIM_9","Because of who you are, have you been repeatedly harassed at work or school, where you live, or when accessing services?","INDIM","Num 8","numeric",8,FALSE,NA,NA,NA
+488,"INDIM_10","Because of who you are, have you ever been threatened with a physical or sexual attack?","INDIM","Num 8","numeric",8,FALSE,NA,NA,NA
+489,"INDIM_11","Because of who you are, have you ever been physically attacked (e g , spit on, had objects thrown at you, hit, punched, pushed or grabbed, beaten)?","INDIM","Num 8","numeric",8,FALSE,NA,NA,NA
+490,"INDIM_12","Because of who you are, have you ever been made to engage in a sexual activity or been touched in a sexual way that you didn't want?","INDIM","Num 8","numeric",8,FALSE,NA,NA,NA
+491,"INDIM_12_12MO","Has this happened to you in the past 12 months?","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+492,"INDIM_12_REASON_A","Your gender identity:Do you think this occurred because of any of the following: (select all that apply)","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+493,"INDIM_12_REASON_B","Who you have sex with:Do you think this occurred because of any of the following: (select all that apply)","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+494,"INDIM_12_REASON_C","Your race or ethnicity:Do you think this occurred because of any of the following: (select all that apply)","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+495,"INDIM_12_REASON_D","Your class or income:Do you think this occurred because of any of the following: (select all that apply)","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+496,"INDIM_12_REASON_OTH","Other aspect(s) of who you are (please specify)::Do you think this occurred because of any of the following: (select all that apply)","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+497,"INDIM_12_REASON_OTHTXT","Other aspect(s) of who you are (please specify)::Do you think this occurred because of any of the following: (select all that apply)",NA,"Char 255","character",255,TRUE,NA,NA,NA
+498,"INDIM_13","Because of who you are, have you ever had someone take, damage, or vandalize your property?","INDIM","Num 8","numeric",8,FALSE,NA,NA,NA
+499,"SOCCAP_MONEY","There are people I can count on if I need to borrow money","MOSTAGREE","Num 8","numeric",8,FALSE,NA,NA,NA
+500,"SOCCAP_DOC","There are people I can count on if I need someone to accompany me to the doctor or hospital","MOSTAGREE","Num 8","numeric",8,FALSE,NA,NA,NA
+501,"SOCCAP_PROB","There are people I can count on if I need to talk about my problems","MOSTAGREE","Num 8","numeric",8,FALSE,NA,NA,NA
+502,"SOCCAP_STAY","There are people I can count on if I need somewhere to stay","MOSTAGREE","Num 8","numeric",8,FALSE,NA,NA,NA
+503,"SOCCAP_FRIEND","I consider the people I interact with to be friends","MOSTAGREE","Num 8","numeric",8,FALSE,NA,NA,NA
+504,"SOCCAP_TRUST","I trust the majority of people in my community","MOSTAGREE","Num 8","numeric",8,FALSE,NA,NA,NA
+505,"FUTURECONTACT _YESRESARCH","Are you interested in participating in future research?","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+506,"ALT_INCENTIVE","Let us know where we should direct this donation:","ALT_INCENTIVE","Num 8","numeric",8,FALSE,NA,NA,NA
+507,"IP_ADDRESS","ip_address",NA,"Char 100","character",100,TRUE,NA,NA,NA
+508,"RESPONDENT_ID","respondent_id",NA,"Num 8","numeric",8,FALSE,"154 to 2405",154,2405
+509,"SGUID","SGUID",NA,"Num 8","numeric",8,FALSE,"1.81561E11to7.82181E11",1.81561e+11,7.82181e+11
+510,"TIMEONSURVEY","Time spent on survey (seconds)",NA,"Num 8","numeric",8,FALSE,"600 to 1046556",600,1046556
+511,"STATUS","Calculated status",NA,"Char 8","character",8,TRUE,NA,NA,NA
+512,"EMAIL","Email",NA,"Char 100","character",100,TRUE,NA,NA,NA
+513,"COMPLETION_TIME","Survey completion time (minutes)",NA,"Num 8","numeric",8,FALSE,"10 to 17442.60",10,17442.6
+514,"POS1STYEAR","When did you first test positive?",NA,"Num 8","numeric",8,FALSE,"1988 to 2025",1988,2025
+515,"ZIP_COMBINED","ZIP code",NA,"Num 8","numeric",8,FALSE,"913 to 99403",913,99403
+516,"STATE_CALC","State, based on ZIP code",NA,"Char 20","character",20,TRUE,NA,NA,NA
+517,"_CENSDIV","Census division","_CENSDIV","Num 8","numeric",8,FALSE,NA,NA,NA
+518,"REGION","Census region","REGION","Num 8","numeric",8,FALSE,NA,NA,NA
+519,"FIPS","FIPS","15","Num 8","numeric",8,FALSE,"1017 to 72127",1017,72127
+520,"CBSA","CBSA","$**.0","Char 245","character",245,TRUE,NA,NA,NA
+521,"DIV","div","$ 5.0","Char 5","character",5,TRUE,NA,NA,NA
+522,"CSA_CODE","CSA CODE","$ 3.0","Char 3","character",3,TRUE,NA,NA,NA
+523,"CBSA_TITLE","CBSA TITLE","$46.0","Char 46","character",46,TRUE,NA,NA,NA
+524,"METROPOLITAN _MICROPOLITAN_STATIS","Metropolitan/Micropolitan Statistical Area","$29.0","Char 29","character",29,TRUE,NA,NA,NA
+525,"METROPOLITAN_DIVISION _TITLE","Metropolitan Division title","$49.0","Char 49","character",49,TRUE,NA,NA,NA
+526,"CSA_TITLE","CSA title","$51.0","Char 51","character",51,TRUE,NA,NA,NA
+527,"COUNTY_COUNTY _EQUIVALENT","County/County Equivalent","$46.0","Char 46","character",46,TRUE,NA,NA,NA
+528,"FIPS_STATE_CODE","FIPS State Code","$ 2.0","Char 2","character",2,TRUE,NA,NA,NA
+529,"FIPS_COUNTY_CODE","FIPS County Code","$ 3.0","Char 3","character",3,TRUE,NA,NA,NA
+530,"CENTRAL_OUTLYING_COUNTY","Central/Outlying County","$ 8.0","Char 8","character",8,TRUE,NA,NA,NA
+531,"CBSATITLE","CBSATITLE","$46.0","Char 46","character",46,TRUE,NA,NA,NA
+532,"CBSAPOP","CBSAPOP","BEST","Num 8","numeric",8,FALSE,"18718 to 19557311",18718,19557311
+533,"CTYPOP","CTYPOP","BEST","Num 8","numeric",8,FALSE,"3140 to 9721138",3140,9721138
+534,"_NCHS_RURAL2023","NCHS rural-urban category","_NCHS","Num 8","numeric",8,FALSE,NA,NA,NA
+535,"_RACEOMB","Race (OMB categories)","RACEB","Num 8","numeric",8,FALSE,NA,NA,NA
+536,"NEWRACE","Race (5 level variable)","NEWRACEB","Num 8","numeric",8,FALSE,NA,NA,NA
+537,"_INSPRIVATE","Private health insurance","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+538,"_INSPUBLIC","Public health insurance","CHKNCHK","Num 8","numeric",8,FALSE,NA,NA,NA
+539,"_INSCAT","Insurance category","_INSCAT","Num 8","numeric",8,FALSE,NA,NA,NA
+540,"_AGECAT","Age (4 level variable)","NEWAGEGRP","Num 8","numeric",8,FALSE,NA,NA,NA
+541,"_AGE5YR","Calculated - age in 5 year groups","_AGE5YR","Num 8","numeric",8,FALSE,NA,NA,NA
+542,"SITE_TYPE2026","Referring site type","SITE_TYPE","Num 8","numeric",8,FALSE,NA,NA,NA
+543,"CITY_C_ZIP","NHBS MSA fips code","_CITYC","Num 8","numeric",8,FALSE,NA,NA,NA
+544,"NHBS","NHBS city","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+545,"_HIVSTAT","Calculated - HIV status (5 levels)","_HIVSTAT","Num 8","numeric",8,FALSE,NA,NA,NA
+546,"HIV_POS","Calculated - HIV status (dichotomous - positive/not positive)","HIVPOS","Num 8","numeric",8,FALSE,NA,NA,NA
+547,"HIV_STATUS","Calculated - HIV status (pos, neg, unknown)","HIVSTATUS","Num 8","numeric",8,FALSE,NA,NA,NA
+548,"TESTED_EVER","Ever tested for HIV","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+549,"_LASTHIVTEST12","HIV tested in p12m","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+550,"RCNTST_DATE","HIV test date","MMDDYY10.0","Num 8","numeric",8,FALSE,"05/15/1986 to 08/15/2026",NA,NA
+551,"UAS","Calculated - Condomless anal sex in p12m","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+552,"UAS_DISCORD12","Calculated - Condomless anal sex with discordant partner in p12m","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+553,"_M_M_NO","Calculated - Number of sex partners in p12m","MNO","Num 8","numeric",8,FALSE,NA,NA,NA
+554,"ILLICIT","Calculated - Illicit drug use in p12m","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+555,"MARIJUANA","Calculated - Marijuana use in p12m","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+556,"OTHERDRUG","Calculated - Other drug use in p12m","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+557,"GC_DX","Calculated - positive GC test in past 12 months","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+558,"CT_DX","Calculated - positive CT test in past 12 months","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+559,"SYPH_DX","Calculated - positive syphillis test in past 12 months","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+560,"ANYSTI_DX","Calculated - Any STI (gonorrhea, chlamydia, syphillis) diagnosis P12M","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+561,"HEARD_PREP","Calculated - Aware of PrEP","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+562,"USED_PREP","Calculated - Used PrEP in past 12 months","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+563,"WILLING_PREP","Calculated - Willing to use PrEP","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+564,"YEAR","ATMOS/SUNS cycle year",NA,"Num 8","numeric",8,FALSE,"2026 to 2026",2026,2026
+565,"_INSACA","Calculated - Purchased insurance through ACA exchange","YESNO","Num 8","numeric",8,FALSE,NA,NA,NA
+566,"TM_STIGMARAND","TM Stigma Questions Randomization",NA,"Num 8","numeric",8,FALSE,"1 to 2",1,2
+567,"NB_STIGMARAND","NB Stigma Questions Randomization",NA,"Num 8","numeric",8,FALSE,"1 to 2",1,2
