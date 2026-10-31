@@ -13,14 +13,14 @@ safe_rename <- function(df, old, new) {
   df
 }
 
-# Codebook-derived variable lists (lower case to match the cleaned names)
+# Codebook-derived variable lists (lower case, leading _ dropped, to match the cleaned names)
 vars_dk_pna <- codebook_values %>%
   filter(value %in% c(777, 999)) %>%
-  pull(variable) %>% unique() %>% tolower()
+  pull(variable) %>% unique() %>% tolower() %>% sub("^_", "", .)
 
 keep_numeric <- codebook_vars %>%
   filter(format %in% c("CHKNCHK", "YESNO", "PHQSCALE", "MOSTAGREE")) %>%
-  pull(variable) %>% tolower()
+  pull(variable) %>% tolower() %>% sub("^_", "", .)
 
 prep_vars <- c(
   "prep_ever", "current_prep_rx", "od_prep_current",
@@ -109,15 +109,56 @@ clean_as_data <- function(raw_data) {
       will_inj = if_else(prep_group == "Injectable", 1,
                          coalesce(inj_prep_will, prep_switch2, prep_switch_od_inj - 1)),
       
-      # Top choice among participants not currently on PrEP
+      n_aware   = aware_qd + aware_od + aware_inj,
+      n_willing = will_qd + will_od + will_inj,
+      
+      # Stated choice among participants not currently on PrEP who were willing
+      # to use 2+ modalities (ranked 1st of three, or chosen from a pair)
       first_choice = case_when(
         prep_rank_qd  == 1 ~ "Daily oral",
-        prep_rank_od  == 1 ~ "On-demand",
+        prep_rank_od  == 1 ~ "On-demand oral",
         prep_rank_inj == 1 ~ "Injectable",
         prep_qdxod == 1 | prep_qdxinj == 1 ~ "Daily oral",
-        prep_qdxod == 2 | prep_odxinj == 2 ~ "On-demand",
+        prep_qdxod == 2 | prep_odxinj == 2 ~ "On-demand oral",
         prep_qdxinj == 2 | prep_odxinj == 3 ~ "Injectable"
-      )
+      ),
+      
+      # Preferred modality (participants not currently on PrEP):
+      # willing to use one -> that one; willing to use 2+ -> stated choice
+      preferred = factor(case_when(
+        prep_group != "Not current"    ~ NA_character_,
+        n_willing == 0                 ~ "Not willing to use any modality",
+        n_willing == 1 & will_qd  == 1 ~ "Daily oral",
+        n_willing == 1 & will_od  == 1 ~ "On-demand oral",
+        n_willing == 1 & will_inj == 1 ~ "Injectable",
+        n_willing >= 2                 ~ first_choice
+      ), levels = c("Daily oral", "On-demand oral", "Injectable",
+                    "Not willing to use any modality")),
+      
+      pref_basis = factor(case_when(
+        prep_group != "Not current"           ~ NA_character_,
+        n_willing == 1                        ~ "Willing to use only one",
+        n_willing >= 2 & !is.na(prep_rank_qd) ~ "Ranked all three",
+        n_willing >= 2 & (!is.na(prep_qdxod) | !is.na(prep_qdxinj) |
+                            !is.na(prep_odxinj)) ~ "Chose between two"
+      ), levels = c("Willing to use only one", "Chose between two", "Ranked all three")),
+      
+      first_choice = factor(first_choice,
+                            levels = c("Daily oral", "On-demand oral", "Injectable"))
+    ) %>%
+    set_variable_labels(
+      aware_qd     = "Daily oral PrEP",
+      aware_od     = "On-demand oral PrEP",
+      aware_inj    = "Injectable PrEP",
+      n_aware      = "Number of modalities aware of",
+      will_qd      = "Daily oral PrEP",
+      will_od      = "On-demand oral PrEP",
+      will_inj     = "Injectable PrEP",
+      n_willing    = "Number of modalities willing to use",
+      first_choice = "Stated choice among modalities willing to use",
+      preferred    = "Preferred PrEP modality",
+      pref_basis   = "Basis for preference",
+      nchs_rural   = "NCHS urban-rural classification"
     )
   
   # 3. Reasons for disinterest in injectable PrEP -------------------------------
@@ -172,12 +213,15 @@ clean_as_data <- function(raw_data) {
   
   # 4. Convert to factors (last, so the numeric recodes above still work) -------
   # labelled variables -> factors, except binary/scale items kept numeric;
-  # droplevels() removes empty levels (e.g., prefer not to answer / don't know)
+  # then drop empty levels (e.g., prefer not to answer / don't know), keeping
+  # variable labels (plain droplevels() strips them)
   df <- df %>%
-    mutate(across(where(haven::is.labelled) & !any_of(keep_numeric),
+    mutate(across(where(haven::is.labelled) & !any_of(keep_numeric) &
+                    !ends_with("_comb"),          # combined 0/1 reason items stay numeric
                   haven::as_factor),
-           across(where(is.character), as.factor)) %>%
-    droplevels()
+           across(where(is.character), as.factor),
+           across(where(is.factor),
+                  ~ structure(droplevels(.x), label = attr(.x, "label"))))
   
   return(df)
 }
